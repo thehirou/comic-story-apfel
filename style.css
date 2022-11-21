@@ -13,6 +13,20 @@ body {background-color: #000000;}
 	margin-left: 25px;
 }
 
+.gotoPage {
+	color: #ffffff;
+	text-align: left;
+	font-family: 'Courier New', monospace;
+	margin-left: 25px;
+}
+
+.gotoPageBox {
+	color: #000000;
+	text-align: left;
+	font-family: 'Courier New', monospace;
+	margin-left: 25px;
+}
+
 .titleCenter {
 	color: #ffffff;
 	text-align: center;
