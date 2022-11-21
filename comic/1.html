@@ -42,13 +42,10 @@ But unlike other habitable planets, this one wasn’t, its core was way too unst
 </div>
 
 
-<br>
-<br>
+<br><br>
 <label class="gotoPage" for="Page">Go to page -></label>
-<input class="gotoPageBox" type="number" id="Page" name="Page" placeholder="Page">
-<input class="gotoPageBox" type="submit" value="Go!" onclick="location.href='.html';">
-
-<h2></h2>
+<input class="gotoPageBox" type="number" id="pageNum" placeholder="Page">
+<button class="gotoPageBox" onclick="location.href='../comic/' + document.getElementById('pageNum').value+'.html'" id="connect">Go!</button>
 
 </body>
 </html>
