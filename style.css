@@ -13,6 +13,13 @@ body {background-color: #000000;}
 	margin-left: 25px;
 }
 
+.chapterIndex {
+	text-align: left;
+	font-family: 'Courier New', monospace;
+	font-size:16px;
+	margin-left: 25px;
+}
+
 .gotoPage {
 	color: #ffffff;
 	text-align: left;
