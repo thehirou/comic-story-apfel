@@ -126,10 +126,10 @@ body {background-color: #000000;}
 .storyConv {
 	position: relative;
 	font-weight: bold;
-	background-color: #b8b9ce;
+	background-color: #eeeeee;
 	color: #000000;
 	text-align: left;
-	border: 1px solid #000000 ;
+	border: 4px ridge #cccccc ;
 	font-family: 'Courier New', monospace;
 	font-size:16px;
 	width: 700px;
@@ -143,10 +143,10 @@ body {background-color: #000000;}
 .storyConvBig {
 	position: relative;
 	font-weight: bold;
-	background-color: #b8b9ce;
+	background-color: #eeeeee;
 	color: #000000;
 	text-align: left;
-	border: 1px solid #000000 ;
+	border: 4px ridge #cccccc ;
 	font-family: 'Courier New', monospace;
 	font-size:24px;
 	width: 700px;
