@@ -8,12 +8,14 @@ body {background-color: #000000;}
 }
 
 .nextPage {
+	font-weight: bold;
 	text-align: left;
 	font-family: 'Courier New', monospace;
-	margin-left: 25px;
+	margin-left: 24px;
 }
 
 .chapterIndex {
+	font-weight: bold;
 	text-align: left;
 	font-family: 'Courier New', monospace;
 	font-size:16px;
@@ -35,22 +37,26 @@ body {background-color: #000000;}
 }
 
 .titleCenter {
+	font-weight: normal;
 	color: #ffffff;
 	text-align: center;
 	font-family: 'Courier New', monospace;
-	font-size:32px;
+	font-size:16px;
+	/* padding-top: 0px; */
+	/* padding-bottom: 0px; */
 }
 
 .titleCenterStory {
+	font-weight: bold;
 	color: #000000;
 	text-align: center;
 	font-family: 'Courier New', monospace;
-	font-size:32px;
+	font-size:24px;
 }
 
 .storyCenter {
 	position: relative;
-	font-weight: normal;
+	font-weight: bold;
 	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
@@ -67,7 +73,7 @@ body {background-color: #000000;}
 
 .storyCenterBig {
 	position: relative;
-	font-weight: normal;
+	font-weight: bold;
 	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
@@ -84,7 +90,8 @@ body {background-color: #000000;}
 
 .commentCenter {
 	position: relative;
-	font-weight: normal;
+	font-weight: bold;
+	font-style: italic;
 	background-color: #fff2cc;
 	color: #000000;
 	text-align: center;
@@ -101,7 +108,7 @@ body {background-color: #000000;}
 
 .storyLeft {
 	position: relative;
-	font-weight: normal;
+	font-weight: bold;
 	background-color: #ffffff;
 	color: #000000;
 	text-align: left;
@@ -116,9 +123,43 @@ body {background-color: #000000;}
 	padding-right:25px;
 }
 
+.storyConv {
+	position: relative;
+	font-weight: bold;
+	background-color: #b8b9ce;
+	color: #000000;
+	text-align: left;
+	border: 1px solid #000000 ;
+	font-family: 'Courier New', monospace;
+	font-size:16px;
+	width: 700px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.storyConvBig {
+	position: relative;
+	font-weight: bold;
+	background-color: #b8b9ce;
+	color: #000000;
+	text-align: left;
+	border: 1px solid #000000 ;
+	font-family: 'Courier New', monospace;
+	font-size:24px;
+	width: 700px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+
 .storyLeftBig {
 	position: relative;
-	font-weight: normal;
+	font-weight: bold;
 	background-color: #ffffff;
 	color: #000000;
 	text-align: left;
@@ -132,6 +173,8 @@ body {background-color: #000000;}
 	padding-left:25px;
 	padding-right:25px;
 }
+
+
 
 .imgCenter {
   display: block;
