@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+<title>Apfel's webcomic</title>
 </head>
 <body>
 
@@ -10,7 +12,7 @@
 <h2 class="titleCenter">Apfel Project</h2>
 <hr>
 <!--UNTIL HERE-->
-<label class="gotoPage" for="Page">Go to page -></label> <input class="gotoPageBox" type="number" id="pageNum" placeholder="Page"> <button class="gotoPageBox" onclick="location.href='../comic/' + document.getElementById('pageNum').value+'.html'" id="connect">Go!</button>
+<label class="gotoPage" for="Page"><a href="index.html">[ <- HOME ]</a> / Go to page -></label> <input class="gotoPageBox" type="number" style="width: 60px;" id="pageNum" placeholder="Page"> <button class="gotoPageBox" onclick="location.href='comic/' + document.getElementById('pageNum').value+'.html'" id="connect">Go!</button>
 
 
 <div id="contentBox">
@@ -103,10 +105,10 @@ Welcome to this webcomic whose interface is shamelessly "inspired" by Homestuck.
 <!--UNTIL HERE (COPIED)-->	
 
 <br>
-
 </div>
 
 <br><br>
+<h2 class="copyrightCenter">© 2022 TheHirou</h2>
 
 </body>
 </html>
