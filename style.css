@@ -44,6 +44,14 @@ body {background-color: #000000;}
 	font-size:16px;
 }
 
+.belowImg {
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	font-size:12px;
+}
+
 .titleCenterStory {
 	font-weight: bold;
 	color: #000000;
