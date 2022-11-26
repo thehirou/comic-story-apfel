@@ -7,6 +7,43 @@ body {background-color: #000000;}
 	width:850px;
 }
 
+#wrapper {
+    overflow: hidden;
+	padding-left: 50px;
+}
+
+#first {
+	margin-top: 50px;
+    width: 30%;
+    float: left;
+	background: #cccccc;
+	border: 1px solid #000000 ;
+}
+
+#second {
+	background: #cccccc;
+	border: 1px solid #000000 ;
+	margin: right;
+    width: 40%;
+}
+
+.indexWrap {
+	position: relative;
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: left;
+	border: 1px solid #000000 ;
+	font-family: 'Courier New', monospace;
+	font-size:16px;
+	width: 80%;
+	margin-top:25px;
+	margin-left:25px;
+	margin-right: 25px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
 .nextPage {
 	font-weight: bold;
 	text-align: left;
